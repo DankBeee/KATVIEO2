@@ -19,13 +19,13 @@ closebutton1.addEventListener('click', function () {
 // imgs.addEventListener("hover", function(){
 //     cover.classList.add("active")
 // })
-var eachpic = document.querySelectorAll(".eachpic")
+// var eachpic = document.querySelectorAll(".eachpic")
 
-function popup(x) {
+// function popup(x) {
     
-    x.style.cursor = "pointer"
-    x.children[0].classList.add("active")
-}
-function normal(x) {
-    x.children[0].classList.remove("active")
-}
+//     x.style.cursor = "pointer"
+//     x.children[0].classList.add("active")
+// }
+// function normal(x) {
+//     x.children[0].classList.remove("active")
+// }

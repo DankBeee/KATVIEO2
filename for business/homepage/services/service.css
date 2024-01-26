@@ -228,7 +228,7 @@ body {
 .bigcontainer5 {
     padding-top: 50px;
     height: 120vh;
-    background: white;
+    background: #E5E9FD;
 }
 
 .bigcontainer5 h1 {
@@ -258,7 +258,7 @@ body {
 }
 
 .wrapper .box .frontface {
-    background: #E5E9FD;
+    background: white;
     border: 2px solid rgb(210, 81, 210);
     border-radius: 40px;
     /* background: white; */
@@ -479,7 +479,7 @@ body {
     /* justify-content: center; */
 }
 
-.column {
+.column1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -487,15 +487,15 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: 200;
-    width: 300px;
+    width: 200px;
 }
 
-.column h1 {
+.column1 h1 {
     font-family: 'Emiken Display', sans-serif;
     /* padding-bottom: 20px; */
 }
 
-.column p {
+.column1 p {
     font-size: 20px;
 }
 
@@ -601,7 +601,7 @@ body {
     z-index: 1000;
    position: absolute;
    /* transform: scale(0); */
-    visibility: hidden;
+    visibility: visible;
     /* background: #ccc; */
     background-color: rgba(255, 248, 248, 0.679);
     color: black;
@@ -611,10 +611,10 @@ body {
     border-radius: 20px;
     /* transition: 0.5s ease-in-out; */
 }
-.cover.active{
+/* .cover.active{
     visibility: visible;
-    /* transform: scale(1); */
-}
+    
+} */
 .contentcover{
     display: flex;
     flex-direction: column;
@@ -632,4 +632,23 @@ body {
     border-radius:40px;
     color: white;
     font-size: 20px;
+    transition: 0.5s;
+}
+
+.contentcover a:hover{
+    transform: scale(1.1);
+}
+
+.column1 input{
+    padding: 5px 10px;
+    width: 300px;
+}
+.column1 button{
+    border: none;
+    background-color:rgb(175, 11, 175) ;
+    cursor: pointer;
+    padding: 12.5px 22px;
+    border-radius: 15px;
+    color: white;
+
 }
